@@ -28,6 +28,10 @@ lightcookie.serialize({
 }) // 'name=Ethan;HttpOnly'
 ```
 
+## Why lightcookie?
+
+lightcookie is super lightweight. It's over [380% smaller](https://www.google.com/search?q=1.67kb+%2F+439+bytes) than cookie, another popular cookie package. lightcookie is the way to go for efficiency as it also parses 100% using JS regular expressions!
+
 ## Documentation
 
 Have a look at [the full documentation](https://ethanent.github.io/lightcookie/) for details about using the library!
