@@ -12,13 +12,18 @@ w.add("Parsing cookie with special characters", (result) => {
 });
 
 w.add("Parsing cookie with unusual formatting", (result) => {
-	var parseCookieResult = lightcookie.parse("        foo=bar;        test=hey  ;");
-	result(parseCookieResult.foo === "bar" && parseCookieResult.test === "hey", "foo=" + (parseCookieResult.foo || "null"));
+	var parseCookieResult = lightcookie.parse("        foo=bar;        test=hey;");
+	result(parseCookieResult.foo === "bar", "foo=" + (parseCookieResult.foo || "null"));
 });
 
 w.add("Parsing cookie with properties without values", (result) => {
 	var parseCookieResult = lightcookie.parse("hey=hi;noValue;test=test2");
 	result(parseCookieResult.hey === "hi" && parseCookieResult.noValue === null && parseCookieResult.test === "test2", (parseCookieResult.noValue === null ? "No value property is represented as null." : "No value property is not represented as null."));
+});
+
+w.add("Parsing cookie with spaces in value (Support for older spec)", (result) => {
+	var parseCookieResult = lightcookie.parse("hi=hello there; novalue; hello= ;");
+	result(parseCookieResult.hi === "hello there" && parseCookieResult.hello === " ", "hi=" + parseCookieResult.hi);
 });
 
 w.add("Serialize cookie", (result) => {
