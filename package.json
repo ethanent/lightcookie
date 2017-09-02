@@ -1,6 +1,6 @@
 {
   "name": "lightcookie",
-  "version": "1.0.2",
+  "version": "1.0.23",
   "description": "Super lightweight cookie parser and serializer",
   "main": "index.js",
   "scripts": {

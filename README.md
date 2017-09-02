@@ -1,7 +1,8 @@
-# lightcookie
-> Super lightweight cookie parser and serializer
+<p align="center" style="text-align: center;"><img src="https://raw.githubusercontent.com/ethanent/lightcookie/master/media/lightcookie-textIncluded.png" width="250" alt="lightcookie logo"/></p>
 
 ---
+
+> Super lightweight cookie parser and serializer
 
 [Full documentation](https://ethanent.github.io/lightcookie/) | [GitHub](https://github.com/ethanent/lightcookie) | [NPM](https://www.npmjs.com/package/lightcookie)
 
