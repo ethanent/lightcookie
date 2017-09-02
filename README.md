@@ -1,4 +1,4 @@
-<p align="center" style="text-align: center;"><img src="https://raw.githubusercontent.com/ethanent/lightcookie/master/media/lightcookie-textIncluded.png" width="250" alt="lightcookie logo"/></p>
+<p align="center" style="text-align: center;"><img src="https://raw.githubusercontent.com/ethanent/lightcookie/4fdf48278e34f3b2aa75b644271da8a3fddb792b/media/lightcookie-textIncluded.png" width="300" alt="lightcookie logo"/></p>
 
 ---
 
