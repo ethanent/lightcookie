@@ -12,7 +12,6 @@ pids
 *.pid.lock
 .npm
 *.tgz
-.travis.yml
 
 # Core resource ignores
 
