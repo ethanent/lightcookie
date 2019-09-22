@@ -31,7 +31,7 @@ lightcookie.serialize({
 
 ## Why lightcookie?
 
-lightcookie is super lightweight. It's over [380% smaller](https://www.google.com/search?q=1.67kb+%2F+439+bytes) than cookie, another popular cookie package. lightcookie is the way to go for efficiency as it also parses 100% using JS regular expressions!
+lightcookie is super lightweight. It's over much more lightweight than cookie, another popular cookie package. lightcookie is the way to go for efficiency as it parses using JS regular expressions!
 
 ## Documentation
 
