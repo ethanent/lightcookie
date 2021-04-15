@@ -1,8 +1,11 @@
 {
   "name": "lightcookie",
-  "version": "1.0.24",
+  "version": "1.0.25",
   "description": "Super lightweight cookie parser and serializer",
   "main": "index.js",
+  "files": [
+    "index.js"
+  ],
   "scripts": {
     "test": "node test.js",
     "prepublishOnly": "npm install --dev && npm test"
